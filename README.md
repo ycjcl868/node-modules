@@ -6,6 +6,10 @@ The Principle is no `dependencies` in `package.json`, every dependencie has buil
 
 ## Quick Start
 
+Click the `Use this template` for your repo.
+
+![](https://user-images.githubusercontent.com/13595509/108468821-289e4f80-723c-11eb-9ea5-b2ab8f015ef1.png)
+
 Install dependencies
 
 ```bash
