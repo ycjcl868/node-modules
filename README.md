@@ -8,7 +8,7 @@ The Principle is no `dependencies` in `package.json`, every dependencie has buil
 
 Click the `Use this template` for your repo.
 
-![](https://user-images.githubusercontent.com/13595509/108468821-289e4f80-723c-11eb-9ea5-b2ab8f015ef1.png)
+![](https://user-images.githubusercontent.com/13595509/108468968-597e8480-723c-11eb-9265-88573747706e.png)
 
 Install dependencies
 
