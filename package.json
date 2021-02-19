@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --platform=node --target=node8 --outdir=dist",
+    "build": "ncc build src/index.ts -o dist",
     "test": "jest",
     "ci": "npm run build && npm run test",
     "prepublishOnly": "npm run ci && np --yolo --no-publish --tag=latest"

@@ -1,5 +1,3 @@
-import * as path from 'path';
-
-export const render = () => {
-  console.log('aaa', path.join(__dirname, 'hello'));
+export const render = (a: number): number => {
+  return a;
 };

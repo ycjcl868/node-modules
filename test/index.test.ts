@@ -1,3 +1,5 @@
+import { render } from '../src';
+
 test('normal', () => {
-  expect(1 + 1).toEqual(2);
+  expect(render(2)).toEqual(2);
 });
