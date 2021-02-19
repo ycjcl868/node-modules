@@ -2,6 +2,7 @@
   "name": "your-package-name",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "files": ["dist"],
   "license": "MIT",
   "scripts": {
     "build": "esbuild src/index.ts --bundle --platform=node --target=node10 --outdir=dist && tsc --emitDeclarationOnly --outDir dist",
