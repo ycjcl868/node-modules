@@ -1,10 +1,10 @@
 {
   "name": "your-package-name",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "ncc build src/index.ts -o dist",
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node10 --outdir=dist && tsc --emitDeclarationOnly --outDir dist",
     "test": "jest",
     "ci": "npm run build && npm run test",
     "prepublishOnly": "npm run ci && np --yolo --no-publish --tag=latest"
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.30",
-    "@vercel/ncc": "^0.27.0",
+    "esbuild": "^0.8.48",
     "husky": "^5.0.9",
     "jest": "^26.6.3",
     "jest-environment-node": "^26.6.2",
