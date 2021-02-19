@@ -2,7 +2,9 @@
   "name": "your-package-name",
   "version": "0.1.0",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "esbuild src/index.ts --bundle --platform=node --target=node10 --outdir=dist && tsc --emitDeclarationOnly --outDir dist",
@@ -22,6 +24,7 @@
     "husky": "^5.0.9",
     "jest": "^26.6.3",
     "jest-environment-node": "^26.6.2",
+    "np": "^7.4.0",
     "prettier": "^2.2.1",
     "prettier-plugin-organize-imports": "^1.1.1",
     "pretty-quick": "^3.1.0",
