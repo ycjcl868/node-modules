@@ -1,0 +1,13 @@
+**/node_modules/**
+package.json
+
+# fixtures
+**/fixtures/**
+
+# templates
+**/templates/**
+
+# coverage
+/coverage
+/dist
+/.umi
